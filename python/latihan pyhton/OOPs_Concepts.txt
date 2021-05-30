@@ -1,0 +1,1 @@
+1. class - A user-defined prototype for an object taht defines a set of attributes that characterize any object of the class. The attributes are dat
