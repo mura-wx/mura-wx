@@ -1,0 +1,16 @@
+h1 {
+	font-family: arial, verdana, sans-serif;
+	color: lightblue;
+	text-align: center;
+	font-size: 100px;
+	font-weight: 900;
+	font-variant: small-caps;
+	font-style: oblique;
+}
+
+p {
+	text-align: justify;
+	font-family: georgia,serif;
+	font-style:italic;
+	line-height: 1.5em;
+}

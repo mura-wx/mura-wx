@@ -1,0 +1,32 @@
+body {
+	font-family: arial;
+}
+
+h1, h2 {
+	color: green;
+}
+
+ul li a {
+	color: lightskyblue;
+}
+
+ol li a {
+	color:pink;
+}
+
+#p1 {
+	letter-spacing: 5px;
+	color: green;
+	text-align: justify;
+}
+
+.p2  {
+	letter-spacing: 5px;
+	color: yellow;
+	text-align: justify;
+}
+
+#d1 {
+	color:blue;
+}
+

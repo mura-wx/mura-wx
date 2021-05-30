@@ -1,0 +1,19 @@
+#p1 {
+	color: red;
+}
+
+p {
+	color: green;
+}
+
+ul#sarapan li {
+	color: cadetblue;
+}
+
+ul#sarapan li.favorit {
+	color: green;
+}
+
+h1 {
+	text-align: center;
+}

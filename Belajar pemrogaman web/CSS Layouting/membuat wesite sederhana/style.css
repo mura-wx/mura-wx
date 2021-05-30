@@ -1,0 +1,30 @@
+body {
+	background-color: #eaeaea;
+	margin:0;
+}
+
+.header {
+	background-color: salmon;
+	padding: 10px;
+	color: white;
+}
+
+h1, h2 {
+	margin:0;
+}
+
+.navigasi ul li {
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.navigasi ul {
+	padding-left: 0;
+}
+
+.container {
+	width: 800px;
+	background-color: white;
+	margin: auto;
+}

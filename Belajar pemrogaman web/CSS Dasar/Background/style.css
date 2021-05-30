@@ -1,0 +1,10 @@
+body {
+	background:  url(Gambar/bg1.jpg) no-repeat ;
+	background-size: 	cover;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 	40px;
+}

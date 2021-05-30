@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animation</title>
+	<style>
+		.kotak {
+			height: 300px;
+			width: 300px;
+			background-color: salmon;
+			animation: kotak 1s cubic-bezier(0.22,-0.15, 0.94, 1.7) forwards;
+		}
+		@keyframes kotak {
+			0% {
+				transform: skew(-30deg) translate(-300px);
+			}
+			100%{
+				transform: translate(150%);	
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="jarak">	</div>
+	<div class="kotak"></div>
+</body>
+</html>

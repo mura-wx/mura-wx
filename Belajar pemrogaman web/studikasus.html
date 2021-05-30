@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Latihan Studi Kasus</title>
+</head>
+<body>
+Angka 1 : <input type="text" id="angka1"> <br>
+Angka 2 : <input type="text" id="angka2"> <br>
+ <br>
+<input type="button" value="+" onClick="fungsi('+')">
+<input type="button" value="-" onClick="fungsi('-')">
+<input type="button" value="/" onClick="fungsi('/')">
+<input type="button" value="*" onClick="fungsi('*')">
+<br> <br> <br>
+<b id="hasil">
+<script type="text/javascript">
+function fungsi(operator){
+var angka1 = document.getElementById("angka1").value;
+var angka2 = document.getElementById("angka2").value;
+var tampung = "" ;
+var temp = "" ;
+if(operator == "+"){
+temp = "Penjumlahan" ;
+tampung = parseInt(angka1) + parseInt(angka2) ;
+}
+else if(operator == "-"){
+temp = "Pengurangan" ;
+tampung = parseInt(angka1) - parseInt(angka2) ;
+}
+else if(operator == "/"){
+temp = "Pembagian" ;
+tampung = parseInt(angka1) / parseInt(angka2) ;
+}
+else if(operator == "*"){
+temp = "Perkalian" ;
+tampung = parseInt(angka1) * parseInt(angka2) ;
+}
+document.getElementById("hasil").innerHTML = "Hasil Dari "+temp+" adalah "+tampung;
+}
+</script>
+</b>
+</body>
+</html>

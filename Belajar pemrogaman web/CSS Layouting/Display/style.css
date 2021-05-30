@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+div.head	{
+	background-color: white;
+	height: 100px;	
+	position: fixed;
+	width: 	100%;
+	line-height: 120px;
+	box-shadow: 0px 5px 100px black;	
+}
+
+.nv {
+	background-color:#929292 ;
+	height: 50px;
+	padding-top: 100px;
+}
+
+.nv ul {
+	margin:0;
+}
+
+.nv ul li {
+	list-style: 	none;
+	display: inline-block; 
+}
+
+.nv ul li a {
+	text-decoration: none;
+	line-height: 50px;
+	padding: 10px;
+	text-transform: uppercase;	
+	color: 	white;
+}
+
+.nv ul li a:hover {
+	background-color: #5369ED;
+	padding: 10px;
+}
+
+.main {
+	padding: 20px;
+	width: 800px;
+	background-color: cadetblue;
+	margin: auto;
+}
+
+.copyright {
+	background-color: black;
+	color: white;
+	text-align:center;
+	padding: 10px
+}

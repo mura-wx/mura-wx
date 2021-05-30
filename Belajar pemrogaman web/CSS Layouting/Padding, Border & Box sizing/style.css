@@ -1,0 +1,10 @@
+div {
+	background-color: lightblue;
+	width:600px;
+	margin: auto;
+	padding: 100px;
+	border-left:5px dashed blue;
+	border-right: 5px double black;
+	box-sizing: border-box;
+
+}

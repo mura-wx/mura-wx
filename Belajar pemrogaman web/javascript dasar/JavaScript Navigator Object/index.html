@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript Navigator Object</title>
+</head>
+<body>
+
+	<!--
+		The JavaScript navigator object is used for browser dtection, it is used to get browser information such as appName, appCodeNae, userAgent etc.
+
+		The navigator object is the window property, so it canbe accessed by:
+
+		window.navigator
+
+		OR
+
+		navigator
+
+		property of JavaScript navigator object
+
+		appName, retuns teh nae
+		appVersion, retuns the version
+		appCodeName, returns the code name
+		cookieEnabled, returns true if cookie isenalbled otherwise false
+		userAgent, returns the user agent
+		language, retuns the language. it is supported inNetscape and firefos only.
+		userLanguage, retuns the user language, it is supported in IE only.
+		pugins, retuns teh plugins, it is supported inNetscape and Firefox only.
+		systemLanguage, retuns the system language. it is supported in IE only.
+		mimetypes[], returs the array of mime type. it is supported inNetc=scape and Firefox only.
+		platform, retuns the plaform e.g. Win32.
+		online, returns true if browser is online otherwise false.
+
+		methods of JavaScript
+
+		javaEnabled(), checks if java is enabled.
+		taintEnabled(), checks if taint is enabled. it is deprecated since JavaScript 1.2
+	-->
+	<script type="text/javascript">
+		document.writeln("<br>navigator.appCodeName: "+navigator.appCodeName);
+		document.writeln("<br>navigator.appName: "+navigator.appName);
+		document.writeln("<br>navigator.appVersion: "+navigator.appVersion);
+		document.writeln("<br>navigator.cookieEnabled: "+navigator.cookieEnabled);
+		document.writeln("<br>navigator.language: "+navigator.language);
+		document.writeln("<br>navigator.userAgent: "+navigator.userAgent);
+		document.write("<br>navigator.plaform: "+navigator.plaform);
+		document.writeln("<br>navigator.onLine: "+navigator.onLine);
+	</script>
+</body>
+</html>

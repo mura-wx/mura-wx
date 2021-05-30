@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fungtion</title>
+</head>
+<body>
+
+	<!-- 
+
+	Functio Motd
+
+	apply() it is used to call a function contains this value and a single array of arguments.
+	bind() it's used to create anew function
+	call() it's used to call a function contains this value and an argument list.
+	toString() it return the result in a form of a string.
+
+	 -->
+
+	<input type="button" onclick="getcube(4)" value="Klik">
+	<script>
+		// function funtion() {
+		// 	alert('ini funtion sederhana!');
+		// }
+
+		// kita dapat menambahkan argument kedalam function
+
+		function getcube(number) {
+			alert(number*number*number*number);
+			return 'makasih'
+		}
+
+
+		// function with Return Value
+		// function getinfo(){
+		// 	return 'makan siang enak kali ya'
+		// }
+
+		// document.write(getinfo())
+
+		// JavaScript Function Object Examples
+
+
+		var add=new Function("num1","num2","return num1+num2");
+		document.writeln(add(2,5));
+		var pow=new Function("num1","num2","return Math.pow(num1+num2)");
+		document.writeln(pow(2,3));
+	</script>
+
+</body>
+</html>

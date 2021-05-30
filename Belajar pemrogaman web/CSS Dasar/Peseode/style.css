@@ -1,0 +1,19 @@
+.hello:link {
+	color: orange;
+}
+
+.hello:hover {
+	color: red;
+}
+
+.hello:active {
+	font-style: italic;
+}
+
+.hello:visited {
+	color:black;
+}
+
+li:nth-child(2-1) a{
+	color: green;
+}

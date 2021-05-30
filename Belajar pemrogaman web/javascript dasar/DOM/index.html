@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM</title>
+</head>
+<body>
+	<!-- 
+		Methods of document object
+
+		write('string'), writes the string on the document
+		writeln('string'), writes the given sting on the document with newlie character at the end.
+		getElemenByName(), retuns the element having the given name value.
+		getElemenByTagName(), retuns the element having the given tag name.
+		getElemenByClassName(), retuns the element having the given class name.
+	-->
+
+	<script type="text/javascript">
+		function printvalue(){
+			var name=document.form1.name.value;
+			alert('welcome'+" "+name);
+		}
+	</script>
+	<form name="form1">
+		Enter Name:<input type="text" name="name">
+		<input type="button" onclick="printvalue()" value="print name">
+	</form>
+</body>
+</html>

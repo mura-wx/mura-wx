@@ -1,0 +1,15 @@
+/*belajar mengenal text-styling*/
+
+h1 {
+	color: rgb(150 215 230);
+	font-size: 50px;
+	text-decoration: line-through;
+	text-align: center;
+}
+
+p {
+	text-indent: 40px;
+	text-align: justify;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}

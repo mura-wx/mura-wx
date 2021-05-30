@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<title>JavaScript Object</title>
+</head>
+<body>
+	<script>
+
+		// // 1. JavaScript Object by object literal
+		// emp={id:102,name:'Muhamad Rafli',salary:4000};
+		// document.write(emp.id +" "+emp.name+" "+emp.salary);
+
+		// // 2. By creating instance of Object
+		// var emp2=new Object();
+		// emp2.id=101
+		// emp2.name='rafli tjahtja'
+		// emp2.salary=4500
+		// document.write(emp2.id +" "+emp2.name+" "+emp2.salary);
+
+		// // 3. By using an Object constructor
+		// function emp3(id,name,salary){
+		// 	this.id=id;
+		// 	this.name=name;
+		// 	this.salary=salary;
+		// }
+
+		// a=new emp3(1001,'Muhamadlah',6000);
+		// document.write(a.id +" "+a.name+" "+a.salary);
+
+
+		// defining motd in JavaScript Object
+		function emp(id,name,salary){
+			this.id=id;
+			this.name=name;
+			this.salary=salary;
+
+			this.chagesalary=chagesalary;
+			function chagesalary(othersalary){
+				this.salary=othersalary;
+			}
+		}
+		a=new emp(103,'Ravi',30000);
+		document.write(a.id +" "+a.name+" "+a.salary);
+		a.chagesalary(45000);
+		document.write('<br>'+ a.id +" "+a.name+" "+a.salary);
+
+		/*
+			JAVASCRIPT OBJECT METHODS
+
+			Object_assing(), This method is used to copy enumerable( tak terhitung) and own properties from a source object to targer object
+
+			Object.create(), This method isused to create a new object with the specified prototype object annd properties.
+		*/ 
+	</script>
+</body>
+</html>
